@@ -142,7 +142,6 @@ let data = document.forms.namedItem("data_input")
     }
     function clearField(field){
         data.elements.namedItem(field).value = ""
-        // console.log("Неверно заполненно поле: " + field)
     }
     function clearAll(){
         document.querySelectorAll('input, select').forEach(el=>el.value = '')
