@@ -5,7 +5,7 @@ let data = document.forms.namedItem("data_input")
     let thumbnail_holder = document.getElementById("thumbnail_holder")
     let thumbnail_date = document.getElementById("thumbnail_date")
     let banks_imgs = {
-        'Сбербанк': '../img/sberbank.png',
+        'Сбербанк': 'sberbank.png',
         'ВТБ': 'vtb.png',
         'Райфайзен': 'rayfayzen.png'
     }
@@ -157,7 +157,7 @@ let data = document.forms.namedItem("data_input")
         return num.toString().replace(/\B(?=(\d{4})+(?!\d))/g, " ")
     }
     function changeBgImg(elem, img){
-        elem.style.backgroundImage = `url('../img/${img}')`
+        elem.style.backgroundImage = `url('img/${img}')`
     }
     
     
