@@ -5,7 +5,7 @@ let data = document.forms.namedItem("data_input")
     let thumbnail_holder = document.getElementById("thumbnail_holder")
     let thumbnail_date = document.getElementById("thumbnail_date")
     let banks_imgs = {
-        'Сбербанк': 'img/sberbank.png',
+        'Сбербанк': '../img/sberbank.png',
         'ВТБ': 'vtb.png',
         'Райфайзен': 'rayfayzen.png'
     }
