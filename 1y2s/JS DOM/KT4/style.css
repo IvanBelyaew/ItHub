@@ -4,7 +4,7 @@
     color: black;
 }
 .thumbnail{
-    background-image: url("../img/World.jpg");
+    background-image: url("img/World.jpg");
     background-size: 100%;
     width: 500px;
     height: 300px;
