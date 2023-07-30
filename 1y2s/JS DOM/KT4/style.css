@@ -3,45 +3,6 @@
     margin-right: 20px;
     color: black;
 }
-/* .black{
-    color: black;
-}
-.font-l{
-    font-size: large;
-}
-.font-xl{
-    font-size: x-large;
-}
-
-.font-25{
-    font-size: 2.5em;
-}
-
-
-
-.fl-col{
-    display: flex;
-    flex-flow: column;
-}
-
-.fl-sb{
-    justify-content: space-between;
-}
-
-.mt-40{
-    margin-top: 40px;
-}
-.mr-20{
-    margin-right: 20px;
-}
-.ml-20{
-    margin-left: 20px;
-}
-
-#card{
-    margin: 10px;
-}
- */
 .thumbnail{
     background-image: url("../img/World.jpg");
     background-size: 100%;
