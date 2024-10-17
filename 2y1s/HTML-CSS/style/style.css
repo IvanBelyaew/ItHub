@@ -1,0 +1,145 @@
+.container {
+  margin-bottom: 16px;
+}
+
+.carousel-inner{
+  width: 100vh;
+}
+
+.cont-100vh{
+  height: 100vh;
+}
+
+.w3-theme-d1 {
+  color:#fff !important; 
+  background-color:#4e7e97 !important}
+
+video{
+  width: 100%;
+  height: auto;
+}
+
+.container_ofus {
+  height: 50vh;
+  padding: 20px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    line-height: 50px;
+    padding-left: 30px;
+    transition: .4s linear;
+  }
+
+  .button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #CE1D5A;
+    border-right: 20px solid transparent;
+  }
+
+  .button:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid white;
+    border-right: 20px solid transparent;
+  }
+
+  .home:hover, .close:hover {
+    color: white;
+  }
+
+  .home, .close {
+    color: #999;
+    font-size: 20px;
+  }
+
+  .flipper {
+    border-radius: 30px;
+    border: 5px solid rgba(255,255,255,0.6);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: .7s linear;  
+  }
+
+  .front, .back {
+    border-radius: 25px;
+    font-family: 'Cabin', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    backface-visibility: hidden;
+  }
+
+  .front {
+    z-index: 2;
+    transform: rotateX(0deg);
+  }
+
+  .back {
+    transform: rotateX(-180deg);
+    color: white;
+  }
+
+  .flipper:target {
+    transform: rotateX(180deg);
+  }
+
+  .inner {
+    padding: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 768px) {
+    h1 {font-size: 3em; white-space:normal}
+    h2 {font-size: 2em}
+    p {font-size: 14px}
+  }
+
+h1 {
+  color: white;
+}
+
+.display-left {
+  background: url("../Images/people.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.display-middle {
+  background: url("../Images/natures.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.display-right {
+  background: url("../Images/city.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
