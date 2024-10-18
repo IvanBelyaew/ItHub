@@ -10,107 +10,15 @@
     <link rel="stylesheet" href="./style/style.css">
   </head>
   <body>
-    <div id="main">
-      <div class=" w3-top w3-display-top">
-        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-          <button button class="w3-button w3-white w3-large" onclick="w3_open()">☰</button>
-          <a href="#home" class="w3-bar-item w3-button"><b>Ivan</b> Belyaev</a>
-          <div class="w3-right w3-hide-small">
-            <a href="#home" class="w3-bar-item w3-button">Главная</a>
-            <div class="w3-dropdown-hover">
-              <button onclick="myFunction()" class="w3-bar-item">Портфолио</button>
-              <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
-                <a href="#target1" class="w3-bar-item w3-button w3-animate-bottom">Люди</a>
-                <a href="#target2" class="w3-bar-item w3-button w3-animate-bottom">Природа</a>
-                <a href="#target3" class="w3-bar-item w3-button w3-animate-bottom">Город</a>
-              </div>
-            </div>
-            <a href="#contact" class="w3-bar-item w3-button">Контакты</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none" id="mySidebar">
-      <button class="w3-bar-item w3-button"onclick="w3_close()">Close &times;</button>
-      <a href="#home" class="w3-bar-item w3-button w3-animate-bottom">Главная</a>
-      <a href="#target1" class="w3-bar-item w3-button w3-animate-bottom">Люди</a>
-      <a href="#target2" class="w3-bar-item w3-button w3-animate-bottom">Природа</a>
-      <a href="#target3" class="w3-bar-item w3-button w3-animate-bottom">Город</a>
-      <a href="#music" class="w3-bar-item w3-button w3-animate-bottom">Музыка</a>
-      <a href="#video" class="w3-bar-item w3-button w3-animate-bottom">Видео</a>
-      <a href="#contact" class="w3-bar-item w3-button">Контакты</a>
-    </div>
-    <div class="w3-content w3-section w3-center reveal" id="home">
+<div class="container">
+    <div class="w3-content w3-section w3-center reveal">
       <img class="mySlides w3-animate-fading active" src="../Images/1.jpg" style="width:100%">
       <img class="mySlides w3-animate-fading" src="../Images/2.jpg" style="width:100%">
       <img class="mySlides w3-animate-fading" src="../Images/3.jpg" style="width:100%">
       <img class="mySlides w3-animate-fading" src="../Images/4.jpg" style="width:100%">
       <img class="mySlides w3-animate-fading" src="../Images/5.jpg" style="width:100%">
     </div>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-xl-4 col-lg-6 display-left">
-          <div class="container_ofus">
-            <div class="flipper" id="target1">
-              <div class="front">
-                <a href="#target1" class="home button">Люди</a>
-              </div>
-              <div class="back">
-                <a href="#close" class="close button"><i class="fa fa-home"></i></a>
-                <div class="inner">
-                  <h2>Люди</h2>
-                  <p><q>Важнее ладить с людьми, чем щелкать затвором</q> - Альфред Айзенштедт.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 display-middle">
-          <div class="container_ofus">
-            <div class="flipper" id="target2">
-              <div class="front">
-                <a href="#target2" class="home button">Природа</a>
-              </div>
-              <div class="back">
-                <a href="#close" class="close button"><i class="fa fa-home"></i></a>
-                <div class="inner">
-                  <h2>Природа</h2>
-                  <p><q>Для фотографа важнее иметь очень хорошую обувь, чем очень хорошую камеру</q> - Себастьяно Сальгадо.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 display-right">
-          <div class="container_ofus">
-            <div class="flipper" id="target3">
-              <div class="front">
-                <a href="#target3" class="home button">Город</a>
-              </div>
-              <div class="back">
-                <a href="#close" class="close button"><i class="fa fa-home"></i></a>
-                <div class="inner">
-                  <h2>Город</h2>
-                  <p><q>Большинство вещей в жизни это моменты радостей и трудностей. Фотография – это момент затруднения и целая жизнь удовольствия</q> - Тони Бенн.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="cont-100vh w3-display-container w3-padding w3-red w3-hover-green w3-half" id="music"> 
-      <div class="w3-display-middle w3-center reveal">
-        <h1>Послушаем Queen</h1>
-        <audio controls src="./Audio/Dragon Attack.mp3"></audio>
-      </div>
-    </div> 
-    <div class="cont-100vh w3-padding w3-display-container w3-theme-d1 w3-hover-orange w3-center w3-rest" id="video"> 
-      <div class="w3-display-middle">
-        <h1>Timelapse</h1>
-        <video controls src="./Video/1.mp4"></video>
-      </div>
-    </div> 
+</div>
     <script src="./script.js"></script>
   </body>
 </html>
